@@ -1,19 +1,19 @@
-<a name="readme-top"></a>
-
+# hello-rails-back-end
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
+- [hello-rails-back-end](#hello-rails-back-end)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 hello-rails-back-end ](#-hello-rails-back-end-)
+- [📖 About the project ](#about-project)
   - [🛠 Built With ](#-built-with-)
-  - [Key Features](#key-features)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -23,22 +23,33 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 hello_rails_back_end_app <a name="about-project"></a>
+# 📖 hello-jsbundling-rails <a name="about-project"></a>
 
-- This is a greeting app built using rails
+A rails app that has different greetings stored in a rails backend API and connected to the frontend react project <a href="https://github.com/citec-47/hello-rails-react.git">here</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Ruby on Rails
+### Tech Stack <a name="tech-stack"></a>
 
-## React Link
+<details>
+<summary>Server</summary>
+  <ul>
+    <li>Ruby</li>
+    <li>Rails</li>
+    <li>PostgreSQL</li>
+  </ul>
+</details>
 
-https://github.com/citec-47/hello-react-back-end/blob/feature/setup/
+<!-- Features -->
 
-## Key Features
+### Key Features <a name="key-features"></a>
 
-- Ruby syntax and use of linters
-- Rails controllers
+- Test-Driven Development
+- Class implementation with methods
+- Data Preserved in .json files
+- Unit tests created with Rspec
+- Backend PGSQL tables
+
 
 <!-- GETTING STARTED -->
 
@@ -50,60 +61,52 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Example command:
-
-```sh
-1.use a browser
-2.use cable internet
-```
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-Example commands:
-
 ```sh
+cd my-folder
+git clone https://github.com/citec-47/hello-rails-back-end.git
 
-  git clone https://github.com/citec-47/hello-rails-back-end.git
-  cd hello-rails-back-end
 ```
 
 ### Install
 
-Install this project with:
-
-Example command:
+To run the project, execute the folllowing in a terminal.
 
 ```sh
-bundle && npm install
+cd my-project
+gem install
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
+
 Example command:
 
 ```sh
-- run rails server
+  rails server
 ```
+
 
 ### Run tests
-
-To run tests for the linter, run the following command:
-
+To run tests, run the following command:
+npm test
 Example command:
-
 ```sh
-rubocop -A
+  npx stylelint "**/*.{css,scss}"
+  rubocop .
+  rspec .
 ```
 
-To run spec tests, run the following command:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```sh
-rspec
-```
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 
 👤 **Ndonyi Maurice Djam**
@@ -112,11 +115,18 @@ rspec
 - Twitter: [@Ndonyi4](https://twitter.com/Ndonyi4)
 - LinkedIn: [@ndonyi-maurice](https://www.linkedin.com/in/ndonyi-maurice-b5b49b22b/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **More complex ruby commands.**
-- **More greetings**
+- Save to file
+- Styling data adding pages
+- Joined tables
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -124,22 +134,28 @@ rspec
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Issues Pages](https://github.com/citec-47/hello-rails-back-end/issues)
+Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project kindly give it a star⭐️.
+If you like this project, leave a star
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank the Microverse community
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 <!-- LICENSE -->
 

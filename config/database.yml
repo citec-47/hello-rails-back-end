@@ -31,10 +31,11 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  username: postgres
+  #username: hello_rails_back_end
 
   # The password associated with the postgres role (username).
-  password: admin
+  #password:
+
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
@@ -59,8 +60,7 @@ development:
 test:
   <<: *default
   database: hello_rails_back_end_test
-  username: postgres
-  password: admin
+
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
@@ -83,6 +83,6 @@ test:
 #
 production:
   <<: *default
-  database: hello_rails_back_end_development
+  database: hello_rails_back_end_production
   username: postgres
   password: admin
